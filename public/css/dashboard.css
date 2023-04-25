@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,600;1,700&family=Questrial&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+body{
+  
+    background: rgb(52, 45, 45);
+    margin:20px;
+    margin-left:50px;
+    margin-right:50px;
+    
+}
+
+nav .navbar{
+    padding-top: 40px;
+    text-align:start;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.navbar ul li{
+    text-align: right;
+    margin: 0 20px;
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#logo{
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+    background: linear-gradient(0deg, rgba(238,199,198,1) 0%, rgba(255,178,108,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.navbar ul li a{
+    display: inline-block;
+    list-style-type:none;
+    text-decoration: none;
+    text-align: right;
+    font-size: 16px;
+    
+}
+
+#select{
+    font-size: 16px;
+    color: #FFB26C;
+}
+
+.navbar a{
+    background-image: linear-gradient(
+      to right,
+      #6C555C,
+      #6C555C 50%,
+      #f6e9dc 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.navbar a:before {
+    content: '';
+    background: #6C555C;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+}
+
+.navbar a:hover {
+    background-position: 0;
+}
+
+.header p{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 32px;
+    background: rgb(144,87,86);
+    background: linear-gradient(0deg, rgba(144,87,86,1) 0%, rgba(255,178,108,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+table{
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+
+button a{
+    display: inline-block;
+    list-style-type:none;
+    text-decoration: none;
+    color:#f6e9dc;
+}
+
+.card{
+    float: left;
+    width: 33.33%;
+    margin:10px;
+}
+
+.row:after {
+    
+    content: "";
+    display: table;
+    clear: both;
+}
